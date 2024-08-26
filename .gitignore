@@ -1,4 +1,10 @@
-**/__pycache__
-.vscode
-.log
+# Ignore all __pycache__ directories at any level
+**/__pycache__/
+
+# Ignore Python bytecode files
 *.py[cod]
+
+# Other common ignores
+.env
+.vscode/
+.DS_Store
